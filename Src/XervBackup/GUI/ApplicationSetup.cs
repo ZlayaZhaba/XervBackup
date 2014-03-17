@@ -258,7 +258,7 @@ namespace XervBackup.GUI
                 Bandwidth.UploadLimit = m_settings.UploadSpeedLimit;
                 Bandwidth.DownloadLimit = m_settings.DownloadSpeedLimit;
 
-                HideDonateButton.Checked = m_settings.HideDonateButton;
+                HideXervmonButton.Checked = m_settings.HideXervmonButton;
 
                 BalloonNotificationLevel.SelectedItem = null;
                 foreach(ComboBoxItemPair<ApplicationSettings.NotificationLevel> p in BalloonNotificationLevel.Items)
@@ -532,12 +532,12 @@ namespace XervBackup.GUI
                 ic.EndEdit(env, SettingExtension.GetExtensions(connection, ic.Key));
         }
 
-        private void HideDonateButton_CheckedChanged(object sender, EventArgs e)
+        private void HideXervmonButton_CheckedChanged(object sender, EventArgs e)
         {
             if (m_isUpdating)
                 return;
 
-            m_settings.HideDonateButton = HideDonateButton.Checked;
+            m_settings.HideXervmonButton = HideXervmonButton.Checked;
         }
 
         private void LicenseSections_SelectedIndexChanged(object sender, EventArgs e)

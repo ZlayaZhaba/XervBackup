@@ -166,8 +166,8 @@ GUI\ApplicationSetup.zh-CN.resx,EncryptionModule.ToolTip,updated,Choose the defa
 GUI\ApplicationSetup.zh-CN.resx,groupBox1.Text,updated,User interface,使用者介面設置
 GUI\ApplicationSetup.zh-CN.resx,groupBox2.Text,updated,Cache,路徑設置（進階）
 GUI\ApplicationSetup.zh-CN.resx,groupBox4.Text,updated,Default throttle settings,啟動時顯示備份設置
-GUI\ApplicationSetup.zh-CN.resx,HideDonateButton.Text,updated,Hide Donate button on the main wizard page,隱藏嚮導頁中的捐助按鈕
-GUI\ApplicationSetup.zh-CN.resx,HideDonateButton.ToolTip,unused,,選中這個選項框來去除嚮導頁中的捐助按鈕
+GUI\ApplicationSetup.zh-CN.resx,HideXervmonButton.Text,updated,Hide Powered button on the main wizard page,隱藏嚮導頁中的捐助按鈕
+GUI\ApplicationSetup.zh-CN.resx,HideXervmonButton.ToolTip,unused,,選中這個選項框來去除嚮導頁中的捐助按鈕
 GUI\ApplicationSetup.zh-CN.resx,label1.Text,updated,Time to display past backups in log:,在最近的備份中顯示日誌的時間週期
 GUI\ApplicationSetup.zh-CN.resx,label1.ToolTip,updated,Select the time a backup is displayed in the log window after completion,選擇當備份完成後在日誌視窗顯示的時間週期
 GUI\ApplicationSetup.zh-CN.resx,label2.Text,updated,Sections:,區域
@@ -743,9 +743,9 @@ GUI\Wizard pages\FirstLaunch.zh-CN.resx,SetupNewBackupHelp.Text,updated,"You hav
 GUI\Wizard pages\FirstLaunch.zh-CN.resx,SimpleHelpHeader.Text,updated,"Select one of the options below, and click next",選擇您要使用的備份方式，然後點擊下一步
 GUI\Wizard pages\MainPage.zh-CN.resx,Backup.Text,updated,Run a backup immediately,立即備份
 GUI\Wizard pages\MainPage.zh-CN.resx,CreateNew.Text,updated,Schedule a new backup,計畫一個新的備份
-GUI\Wizard pages\MainPage.zh-CN.resx,donate_button.ToolTip,updated,"Show your appreciation by donating, any amount is accepted",如果您覺得本軟體好用，請捐助我們，多少隨意
-GUI\Wizard pages\MainPage.zh-CN.resx,donate_link.Text,updated,Support XervBackup,支持XervBackup
-GUI\Wizard pages\MainPage.zh-CN.resx,donate_link.ToolTip,updated,"Show your appreciation by donating, any amount is accepted",如果您覺得本軟體好用，請捐助我們，多少隨意
+GUI\Wizard pages\MainPage.zh-CN.resx,xervmon_button.ToolTip,updated,"Powered By Xervmon",Powered By Xervmon
+GUI\Wizard pages\MainPage.zh-CN.resx,xervmon_link.Text,updated,Powered By Xervmon,支持XervBackup
+GUI\Wizard pages\MainPage.zh-CN.resx,xervmon_link.ToolTip,updated,"Powered By Xervmon",Powered By Xervmon
 GUI\Wizard pages\MainPage.zh-CN.resx,Edit.Text,updated,Edit an existing backup,編輯一個已經存在的備份
 GUI\Wizard pages\MainPage.zh-CN.resx,label1.Text,updated,What do you want to do?,您想做什麼？
 GUI\Wizard pages\MainPage.zh-CN.resx,Remove.Text,updated,Remove an existing backup,刪除一個已經存在的備份

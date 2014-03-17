@@ -216,34 +216,34 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="HideDonateButton.AutoSize" type="System.Boolean, mscorlib">
+  <data name="HideXervmonButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="HideDonateButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="HideXervmonButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="HideDonateButton.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="HideXervmonButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 129</value>
   </data>
-  <data name="HideDonateButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HideXervmonButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 17</value>
   </data>
-  <data name="HideDonateButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="HideXervmonButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="HideDonateButton.Text" xml:space="preserve">
-    <value>Hide Donate button on the main wizard page</value>
+  <data name="HideXervmonButton.Text" xml:space="preserve">
+    <value>Hide Xervmon button on the main wizard page</value>
   </data>
-  <data name="&gt;&gt;HideDonateButton.Name" xml:space="preserve">
-    <value>HideDonateButton</value>
+  <data name="&gt;&gt;HideXervmonButton.Name" xml:space="preserve">
+    <value>HideXervmonButton</value>
   </data>
-  <data name="&gt;&gt;HideDonateButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;HideXervmonButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;HideDonateButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HideXervmonButton.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;HideDonateButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HideXervmonButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="StartupDelayDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">

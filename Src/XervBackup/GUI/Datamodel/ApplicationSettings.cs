@@ -55,7 +55,7 @@ namespace XervBackup.Datamodel
         private const string UPLOAD_SPEED_LIMIT = "Upload speed limit";
         private const string DOWNLOAD_SPEED_LIMIT = "Download speed limit";
 
-        private const string HIDE_DONATE_BUTTON = "Hide donate button";
+        private const string HIDE_DONATE_BUTTON = "Hide xervmon button";
 
         private const string BALLON_NOTIFICATION_LEVEL = "Balloon notification level";
 
@@ -286,9 +286,9 @@ namespace XervBackup.Datamodel
         }
 
         /// <summary>
-        /// Gets or sets a value indicating if the donate button in XervBackup should be hidden
+        /// Gets or sets a value indicating if the xervmon button in XervBackup should be hidden
         /// </summary>
-        public bool HideDonateButton
+        public bool HideXervmonButton
         {
             get
             {

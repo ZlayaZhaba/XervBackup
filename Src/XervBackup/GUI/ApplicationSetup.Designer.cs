@@ -34,7 +34,7 @@ namespace XervBackup.GUI
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BalloonNotificationLevel = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.HideDonateButton = new System.Windows.Forms.CheckBox();
+            this.HideXervmonButton = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.LanguageSelection = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -92,7 +92,7 @@ namespace XervBackup.GUI
             // 
             this.groupBox1.Controls.Add(this.BalloonNotificationLevel);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.HideDonateButton);
+            this.groupBox1.Controls.Add(this.HideXervmonButton);
             this.groupBox1.Controls.Add(this.StartupDelayDuration);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.LanguageSelection);
@@ -119,12 +119,12 @@ namespace XervBackup.GUI
             this.label8.Name = "label8";
             this.toolTip.SetToolTip(this.label8, resources.GetString("label8.ToolTip"));
             // 
-            // HideDonateButton
+            // HideXervmonButton
             // 
-            resources.ApplyResources(this.HideDonateButton, "HideDonateButton");
-            this.HideDonateButton.Name = "HideDonateButton";
-            this.HideDonateButton.UseVisualStyleBackColor = true;
-            this.HideDonateButton.CheckedChanged += new System.EventHandler(this.HideDonateButton_CheckedChanged);
+            resources.ApplyResources(this.HideXervmonButton, "HideXervmonButton");
+            this.HideXervmonButton.Name = "HideXervmonButton";
+            this.HideXervmonButton.UseVisualStyleBackColor = true;
+            this.HideXervmonButton.CheckedChanged += new System.EventHandler(this.HideXervmonButton_CheckedChanged);
             // 
             // label7
             // 
@@ -457,7 +457,7 @@ namespace XervBackup.GUI
         private XervBackup.GUI.HelperControls.ThreadPriorityPicker ThreadPriorityPicker;
         private System.Windows.Forms.Label EncryptionMethod;
         private System.Windows.Forms.ComboBox EncryptionModule;
-        private System.Windows.Forms.CheckBox HideDonateButton;
+        private System.Windows.Forms.CheckBox HideXervmonButton;
         private System.Windows.Forms.TabPage LicenseTab;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox LicenseSections;

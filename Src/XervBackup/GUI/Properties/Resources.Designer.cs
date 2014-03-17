@@ -144,9 +144,9 @@ namespace XervBackup.GUI.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap donate_button {
+        internal static System.Drawing.Bitmap xervmon_button {
             get {
-                object obj = ResourceManager.GetObject("donate_button", resourceCulture);
+                object obj = ResourceManager.GetObject("xervmon_button", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

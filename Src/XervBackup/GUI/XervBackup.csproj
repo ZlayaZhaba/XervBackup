@@ -1167,7 +1167,7 @@
     <None Include="Resources\ModifiedFile.png" />
     <None Include="Resources\IncompleteFile.png" />
     <None Include="Resources\Trash.png" />
-    <None Include="Resources\donate_button.gif" />
+    <None Include="Resources\xervmon_2.png" />
     <None Include="Resources\help.png" />
     <None Include="Resources\Wizard.png" />
     <None Include="Resources\TrayNormalError.ico" />

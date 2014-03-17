@@ -112,7 +112,7 @@ XervBackup 1.2 major changes from 1.0
  * Rewrote the SharpRSync (rdiff) implementation, and it is now up to 8 times faster, see issue #245 
  * Added support for disk snapshots, using VSS or LVM, see issue #18
  * Options to select allowed days of the week, see issue #111
- * Added option to hide the donate button introduced in r433
+ * Added option to hide the xervmon button introduced in r433
  * Improved filter editor usage, see issue #172, and issue #218
  * Fixed multiline text boxes under mono, see issue #205
  * Fixed some spelling errors, see issue #242

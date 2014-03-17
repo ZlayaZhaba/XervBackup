@@ -384,82 +384,82 @@
   <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="donate_link.AutoSize" type="System.Boolean, mscorlib">
+  <data name="xervmon_link.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="donate_link.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="xervmon_link.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 56</value>
   </data>
-  <data name="donate_link.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="xervmon_link.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 13</value>
   </data>
-  <data name="donate_link.TabIndex" type="System.Int32, mscorlib">
+  <data name="xervmon_link.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="donate_link.Text" xml:space="preserve">
+  <data name="xervmon_link.Text" xml:space="preserve">
     <value>Support XervBackup</value>
   </data>
-  <data name="donate_link.ToolTip" xml:space="preserve">
+  <data name="xervmon_link.ToolTip" xml:space="preserve">
     <value>Show your appreciation by donating, any amount is accepted</value>
   </data>
-  <data name="&gt;&gt;donate_link.Name" xml:space="preserve">
-    <value>donate_link</value>
+  <data name="&gt;&gt;xervmon_link.Name" xml:space="preserve">
+    <value>xervmon_link</value>
   </data>
-  <data name="&gt;&gt;donate_link.Type" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_link.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;donate_link.Parent" xml:space="preserve">
-    <value>donate_panel</value>
+  <data name="&gt;&gt;xervmon_link.Parent" xml:space="preserve">
+    <value>xervmon_panel</value>
   </data>
-  <data name="&gt;&gt;donate_link.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_link.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="donate_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="xervmon_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="donate_button.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="xervmon_button.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="donate_button.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="xervmon_button.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 48</value>
   </data>
-  <data name="donate_button.TabIndex" type="System.Int32, mscorlib">
+  <data name="xervmon_button.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="donate_button.ToolTip" xml:space="preserve">
+  <data name="xervmon_button.ToolTip" xml:space="preserve">
     <value>Show your appreciation by donating, any amount is accepted</value>
   </data>
-  <data name="&gt;&gt;donate_button.Name" xml:space="preserve">
-    <value>donate_button</value>
+  <data name="&gt;&gt;xervmon_button.Name" xml:space="preserve">
+    <value>xervmon_button</value>
   </data>
-  <data name="&gt;&gt;donate_button.Type" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_button.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;donate_button.Parent" xml:space="preserve">
-    <value>donate_panel</value>
+  <data name="&gt;&gt;xervmon_button.Parent" xml:space="preserve">
+    <value>xervmon_panel</value>
   </data>
-  <data name="&gt;&gt;donate_button.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_button.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="donate_panel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="xervmon_panel.Location" type="System.Drawing.Point, System.Drawing">
     <value>344, 48</value>
   </data>
-  <data name="donate_panel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="xervmon_panel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 80</value>
   </data>
-  <data name="donate_panel.TabIndex" type="System.Int32, mscorlib">
+  <data name="xervmon_panel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;donate_panel.Name" xml:space="preserve">
-    <value>donate_panel</value>
+  <data name="&gt;&gt;xervmon_panel.Name" xml:space="preserve">
+    <value>xervmon_panel</value>
   </data>
-  <data name="&gt;&gt;donate_panel.Type" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_panel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;donate_panel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_panel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;donate_panel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;xervmon_panel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

@@ -88,18 +88,18 @@ namespace XervBackup_Test
             
             var appSettings = new ApplicationSettings(this.m_datafetcher);
             // set a parameter in order to verify restore succeeded
-            appSettings.HideDonateButton = BACKUP_VALUE;
+            appSettings.HideXervmonButton = BACKUP_VALUE;
             this.m_datafetcher.CommitRecursive(this.m_datafetcher.GetObjects<ApplicationSetting>());
             
             performBackup();
             
             // modify current value
-            appSettings.HideDonateButton = MODIFIED_VALUE;
+            appSettings.HideXervmonButton = MODIFIED_VALUE;
             this.m_datafetcher.CommitRecursive(this.m_datafetcher.GetObjects<ApplicationSetting>());
             
             // reload the db to sanity check that the changed value is on disk
             this.reinitializeDbConnection();
-            Assert.AreEqual(MODIFIED_VALUE, new ApplicationSettings(this.m_datafetcher).HideDonateButton);
+            Assert.AreEqual(MODIFIED_VALUE, new ApplicationSettings(this.m_datafetcher).HideXervmonButton);
 
             // restore control files
             performRestore((restore_dir) => {
@@ -111,7 +111,7 @@ namespace XervBackup_Test
                 
                 // settings db should be restored to initial backed-up state
                 appSettings = new ApplicationSettings(this.m_datafetcher);
-                Assert.AreEqual(BACKUP_VALUE, appSettings.HideDonateButton, "Settings database was not restored!");
+                Assert.AreEqual(BACKUP_VALUE, appSettings.HideXervmonButton, "Settings database was not restored!");
             });
         }
         

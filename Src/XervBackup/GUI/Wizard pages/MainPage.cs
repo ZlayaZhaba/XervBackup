@@ -39,7 +39,7 @@ namespace XervBackup.GUI.Wizard_pages
         {
             InitializeComponent();
 
-            donate_panel.Visible = !new ApplicationSettings(Program.DataConnection).HideDonateButton;
+            xervmon_panel.Visible = !new ApplicationSettings(Program.DataConnection).HideXervmonButton;
 
             base.PageEnter += new PageChangeHandler(MainPage_PageEnter);
             base.PageLeave += new PageChangeHandler(MainPage_PageLeave);
@@ -138,14 +138,14 @@ namespace XervBackup.GUI.Wizard_pages
             m_owner.NextButton.PerformClick();
         }
 
-        private void donate_clicked(object sender, EventArgs e)
+        private void xervmon_clicked(object sender, EventArgs e)
         {
-            XervBackup.Library.Utility.UrlUtillity.OpenUrl("https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40hexad%2edk&item_name=XervBackup%20Donation&no_shipping=2&no_note=1&tax=0&currency_code=EUR&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US");
+            XervBackup.Library.Utility.UrlUtillity.OpenUrl("https://xervmon.com");
         }
 
-        private void donate_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void xervmon_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            donate_clicked(sender, e);
+            xervmon_clicked(sender, e);
         }
     }
 }
