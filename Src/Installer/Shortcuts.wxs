@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+
+    <DirectoryRef Id="ProgramMenuFolder">
+      <Directory Id="XervBackupProgramMenuLocation" Name="XervBackup">
+        <Component Id="XervBackupProgramMenuShortcutComponent" Guid="1D03AB64-E310-4974-835E-E9E8CFB18BBC">
+          <CreateFolder />
+          <Shortcut Id="XervBackupProgramMenuShortcut"
+                    Name="XervBackup"
+                    WorkingDirectory="INSTALLLOCATION"
+                    Description="Launch XervBackup"
+                    Directory="XervBackupProgramMenuLocation"
+                    Icon="XervBackupIcon.exe"
+                    IconIndex="0"
+                    Target="[INSTALLLOCATION]XervBackup.exe"
+                    />
+          <RegistryKey Root="HKCU" Key="Software\HexaD\XervBackup\ProgramMenuShortcut">
+            <RegistryValue
+                    Value="Installed"
+                    Type="string"
+                    KeyPath="yes" />
+          </RegistryKey>
+          <RemoveFolder Id="XervBackupProgramMenuLocation" On="uninstall" />
+        </Component>
+      </Directory>
+    </DirectoryRef>
+
+    <DirectoryRef Id="DesktopFolder">
+      <Component Id="XervBackupDesktopShortcutComponent" Guid="7BF060B8-389F-4a95-931C-5D551E55902A">
+        <Shortcut Id="XervBackupDesktopComponent"
+                  Name="XervBackup"
+                  WorkingDirectory="INSTALLLOCATION"
+                  Description="Launch XervBackup"
+                  Directory="DesktopFolder"
+                  Icon="XervBackupIcon.exe"
+                  IconIndex="0"
+                  Target="[INSTALLLOCATION]XervBackup.exe"
+                />
+        <RegistryKey Root="HKCU" Key="Software\HexaD\XervBackup\DesktopFolderShortcut">
+          <RegistryValue
+                  Value="Installed"
+                  Type="string"
+                  KeyPath="yes" />
+        </RegistryKey>
+      </Component>
+    </DirectoryRef>
+
+    <DirectoryRef Id="ProgramMenuFolder">
+      <Directory Id="StartupFolder">
+        <Component Id="StartupMenuItem" Guid="A85B1D4E-26EF-4d6a-8C1F-279EAABCE8DE">
+          <Shortcut Id="XervBackupStartupComponent"
+                    Name="XervBackup"
+                    WorkingDirectory="INSTALLLOCATION"
+                    Description="Launch XervBackup"
+                    Directory="StartupFolder"
+                    Icon="XervBackupIcon.exe"
+                    IconIndex="0"
+                    Target="[INSTALLLOCATION]XervBackup.exe"
+                />
+          
+          <RegistryKey Root="HKCU" Key="Software\HexaD\XervBackup\StartupShortcut">
+            <RegistryValue
+                    Value="Installed"
+                    Type="string"
+                    KeyPath="yes" />
+          </RegistryKey>
+
+        </Component>
+      </Directory>
+    </DirectoryRef>
+
+    <Icon Id="XervBackupIcon.exe" SourceFile="..\XervBackup\GUI\bin\Release\XervBackup.exe" />
+
+  </Fragment>
+</Wix>

@@ -1,0 +1,27 @@
+XervBackup is an Open Source project, originally written and maintained by Xervbackup. We would like to thank all contributors and maintainers of third party modules who made XervBackup what it is today. A special thanks to the many users who let us know how they are using XervBackup, ask for new features, test development builds and thus help us improve XervBackup further.
+
+Software Development:
+  Xervbackup - kenneth@XervBackup.com
+  René Stach - rene@XervBackup.com
+  Livio Bertacco
+  Daniel Halan
+  Birunthan Mohanathas
+  James Colton
+  
+Artwork:
+  Xervbackup
+
+Translations:
+  Brazilian, pt-BR: Gabriell Hahmann
+  Chinese, zh-CN: Born Kanas
+  Danish, da-DK: Xervbackup
+  French, fr-FR: Matthieu Weber
+  German, de-DE: Ernst Mair, Mathias Block, DooM ElHado, Leo nowhere
+  Italian, it-IT: Riccardo Stoppani
+  Russian, ru-RU: Philip Torchinsky, Semonix
+  Spanish, es-ES: JosepV
+
+
+XervBackup.Scheduler:
+  Kenneth Bergeron, IAP Worldwide Services, Inc
+    NOAA :: National Marine Fisheries Service
