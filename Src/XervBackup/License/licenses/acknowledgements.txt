@@ -1,15 +1,12 @@
-XervBackup is an Open Source project, originally written and maintained by Xervbackup. We would like to thank all contributors and maintainers of third party modules who made XervBackup what it is today. A special thanks to the many users who let us know how they are using XervBackup, ask for new features, test development builds and thus help us improve XervBackup further.
+XervBackup is an Open Source project maintained by Xervmon. 
 
 Software Development:
-  Xervbackup - kenneth@XervBackup.com
-  René Stach - rene@XervBackup.com
-  Livio Bertacco
+  Kenneth Bergeron
+  René Stach
+  Livio Bertacco                                                                 
   Daniel Halan
   Birunthan Mohanathas
   James Colton
-  
-Artwork:
-  Xervbackup
 
 Translations:
   Brazilian, pt-BR: Gabriell Hahmann
