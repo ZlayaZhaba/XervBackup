@@ -397,10 +397,10 @@
     <value>7</value>
   </data>
   <data name="xervmon_link.Text" xml:space="preserve">
-    <value>Support XervBackup</value>
+    <value>Powered by Xervmon</value>
   </data>
   <data name="xervmon_link.ToolTip" xml:space="preserve">
-    <value>Show your appreciation by donating, any amount is accepted</value>
+    <value>Powered by Xervon</value>
   </data>
   <data name="&gt;&gt;xervmon_link.Name" xml:space="preserve">
     <value>xervmon_link</value>
@@ -427,7 +427,7 @@
     <value>6</value>
   </data>
   <data name="xervmon_button.ToolTip" xml:space="preserve">
-    <value>Show your appreciation by donating, any amount is accepted</value>
+    <value>Powered by Xervon</value>
   </data>
   <data name="&gt;&gt;xervmon_button.Name" xml:space="preserve">
     <value>xervmon_button</value>
