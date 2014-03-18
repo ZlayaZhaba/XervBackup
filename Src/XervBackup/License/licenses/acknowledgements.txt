@@ -1,5 +1,5 @@
-XervBackup is an Open Source project maintained by Xervmon. 
-
+XervBackup is a fork of several open source projects integrated into one platform on Xervmon.
+We thank the original contributions of the following members.
 Software Development:
   Kenneth Bergeron
   René Stach
@@ -22,3 +22,6 @@ Translations:
 XervBackup.Scheduler:
   Kenneth Bergeron, IAP Worldwide Services, Inc
     NOAA :: National Marine Fisheries Service
+    
+Xervmon Inc is a Houston based Delaware incorporated company delivering cloud based products and solutions to small and medium enterprises
+leveraging a unified platform built from ground up to deliver solutions effectively and efficiently.
