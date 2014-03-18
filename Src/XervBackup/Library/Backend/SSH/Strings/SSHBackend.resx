@@ -160,10 +160,10 @@
     <value>Failed to delete file: {0}</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>This backend can read and write data to an SSH based backend, using SFTP. Allowed formats are "ssh://hostname/folder" or "ssh://username:password@hostname/folder".</value>
+    <value>This backend can read and write data to an Xervmon (SSH) based backend, using SFTP. Allowed formats are "XervBackup://hostname/folder" or "XervBackup://username:password@hostname/folder".</value>
   </data>
   <data name="DescriptionDebugToConsoleLong" xml:space="preserve">
-    <value>The SSH backend relies on an external program (sftp) to work. Since the external program may change at any time, this may break the backend. Enable this option to get debug information about the ssh connection written to the console. Only used if the --use-sftp-application option is supplied.</value>
+    <value>The xervbackup backend relies on an external program (sftp) to work. Since the external program may change at any time, this may break the backend. Enable this option to get debug information about the ssh connection written to the console. Only used if the --use-sftp-application option is supplied.</value>
   </data>
   <data name="DescriptionDebugToConsoleShort" xml:space="preserve">
     <value>Prints debug info to the console</value>
@@ -211,7 +211,7 @@
     <value>Use an external sftp application</value>
   </data>
   <data name="DisplayName" xml:space="preserve">
-    <value>SSH based</value>
+    <value>XervBackup based</value>
   </data>
   <data name="DownloadTimeoutError" xml:space="preserve">
     <value>Timeout while downloading file</value>
