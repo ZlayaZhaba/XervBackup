@@ -1,0 +1,62 @@
+﻿<root>
+	<configuration name="XervBackup">
+		<assembly name="XervBackup" folder="GUI" namespace="XervBackup.GUI">
+			<exclude>Datamodel</exclude>
+		</assembly>
+		<assembly name="XervBackup.Datamodel" folder="GUI\Datamodel" />
+		<assembly name="XervBackup.CommandLine" folder="CommandLine">
+			<exclude>Decrypter</exclude>
+		</assembly>
+
+		<assembly name="XervBackup.CommandLine.Decrypter" folder="CommandLine\Decrypter" />
+
+		<assembly name="XervBackup.Library.Utility" folder="Library\Utility" />
+		<assembly name="XervBackup.Library.Main" folder="Library\Main" />
+		<assembly name="XervBackup.Library.Encryption" folder="Library\Encryption" />
+		<assembly name="XervBackup.Library.SharpExpect" folder="Library\SharpExpect" />
+		<assembly name="XervBackup.Library.Compression" folder="Library\Compression" />
+		<assembly name="XervBackup.Library.Encryption" folder="Library\Encryption" />
+		<assembly name="XervBackup.Library.SharpRSync" folder="Library\SharpRSync" />
+		<assembly name="XervBackup.Library.Shapshots" folder="Library\Snapshots" />
+
+		<assembly name="XervBackup.Library.Interface" folder="Library\Interface" />
+		<assembly name="XervBackup.Library.DynamicLoader" folder="Library\DynamicLoader" />
+
+		<assembly name="XervBackup.Library.Modules.Builtin" folder="Library\Modules\Builtin" />
+		
+		<assembly name="XervBackup.Library.Backend.FTP" folder="Library\Backend\FTP" namespace="XervBackup.Library.Backend" />
+		<assembly name="XervBackup.Library.Backend.File" folder="Library\Backend\File" namespace="XervBackup.Library.Backend" />
+		<assembly name="XervBackup.Library.Backend.S3" folder="Library\Backend\S3" namespace="XervBackup.Library.Backend" />
+		<assembly name="XervBackup.Library.Backend.WEBDAV" folder="Library\Backend\WEBDAV" namespace="XervBackup.Library.Backend" />
+		<assembly name="XervBackup.Library.Backend.CloudFiles" folder="Library\Backend\CloudFiles" namespace="XervBackup.Library.Backend" />
+		
+		<assembly name="XervBackup.Winforms.Controls" folder="Winforms\Controls" namespace="XervBackup.Winforms.Controls" />
+		
+		<keyfile>..\GUI\XervBackup.snk</keyfile>
+		<versionassembly>..\GUI\bin\Release\XervBackup.exe</versionassembly>
+		<sourcefolder>..</sourcefolder>
+		<outputfolder>compiled</outputfolder>
+		<productname>XervBackup</productname>
+	</configuration>
+
+	<!-- We need these without a keyfile, because they depend on unsigned dll's -->
+	<configuration name="SSH">
+		<assembly name="XervBackup.Library.Backend.SSH" folder="Library\Backend\SSH" namespace="XervBackup.Library.Backend" />
+		<assembly name="XervBackup.Library.Backend.TahoeLAFS" folder="Library\Backend\TahoeLAFS" namespace="XervBackup.Library.Backend" />		
+		
+		<versionassembly>..\GUI\bin\Release\XervBackup.exe</versionassembly>
+		<sourcefolder>..</sourcefolder>
+		<outputfolder>compiled</outputfolder>
+		<productname>XervBackup</productname>
+	</configuration>
+	
+	<configuration name="WizardForm">
+		<assembly name="System.Windows.Forms.Wizard" folder="WizardForm" />
+		
+		<keyfile>..\..\WizardForm\WizardForm.snk</keyfile>
+		<versionassembly>..\GUI\bin\Release\System.Windows.Forms.Wizard.dll</versionassembly>
+		<sourcefolder>..\..</sourcefolder>
+		<outputfolder>compiled</outputfolder>
+		<productname>WizardForm</productname>
+	</configuration>
+</root>

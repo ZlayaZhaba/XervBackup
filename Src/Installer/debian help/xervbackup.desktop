@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Categories=Utility;
+Type=Application
+Name=XervBackup
+Comment=XervBackup - A free backup client
+Exec=/usr/bin/XervBackup
+Icon=XervBackup

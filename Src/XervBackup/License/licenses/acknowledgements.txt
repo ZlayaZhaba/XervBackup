@@ -1,0 +1,24 @@
+XervBackup is an Open Source project maintained by Xervmon. 
+
+Software Development:
+  Kenneth Bergeron
+  René Stach
+  Livio Bertacco                                                                 
+  Daniel Halan
+  Birunthan Mohanathas
+  James Colton
+
+Translations:
+  Brazilian, pt-BR: Gabriell Hahmann
+  Chinese, zh-CN: Born Kanas
+  Danish, da-DK: Xervbackup
+  French, fr-FR: Matthieu Weber
+  German, de-DE: Ernst Mair, Mathias Block, DooM ElHado, Leo nowhere
+  Italian, it-IT: Riccardo Stoppani
+  Russian, ru-RU: Philip Torchinsky, Semonix
+  Spanish, es-ES: JosepV
+
+
+XervBackup.Scheduler:
+  Kenneth Bergeron, IAP Worldwide Services, Inc
+    NOAA :: National Marine Fisheries Service
