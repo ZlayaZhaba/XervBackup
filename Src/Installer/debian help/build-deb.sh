@@ -156,11 +156,11 @@ gzip --quiet --best "$ROOT_DIR/usr/share/doc/XervBackup/changelog.Debian"
 
 # Make sym link to install launcher scripts in /usr/bin
 # We install these before calculating the size
-cp "XervBackup-launcher.sh" "$ROOT_DIR/usr/bin/XervBackup"
-cp "XervBackup-commandline-launcher.sh" "$ROOT_DIR/usr/bin/XervBackup-commandline"
-cp "XervBackup.desktop" "$ROOT_DIR/usr/share/applications/"
-cp "XervBackup.xpm" "$ROOT_DIR/usr/share/pixmaps/"
-cp "XervBackup.png" "$ROOT_DIR/usr/share/pixmaps/"
+cp "xervbackup-launcher.sh" "$ROOT_DIR/usr/bin/XervBackup"
+cp "xervbackup-commandline-launcher.sh" "$ROOT_DIR/usr/bin/XervBackup-commandline"
+cp "xervbackup.desktop" "$ROOT_DIR/usr/share/applications/"
+cp "xervbackup.xpm" "$ROOT_DIR/usr/share/pixmaps/"
+cp "xervbackup.png" "$ROOT_DIR/usr/share/pixmaps/"
 
 # If we edit files, we sometimes get backup files included
 find "$ROOT_DIR" -type f -name \*\~ -exec rm -rf '{}' \;
